@@ -81,8 +81,8 @@ Every session is engineered with **zero mid-roll ads, zero speech, and a pitch-b
 ### 3. VESSEL-C: Somatic Sleep Chambers (1.5Hz Slow-Wave Delta)
 * **Frequency Offset:** $1.5 \text{ Hz}$ deep slow-wave differential over oceanic Brownian surf.
 * **Canvas:** Pure pitch-black OLED canvas ($0.00 \text{ nits}$) to protect nocturnal melatonin production.
-* **Session Length:** 8 Hours (continuous, un-looped overnight restorative sleep).
-* **Target Audience:** Every human who sleeps—especially night-shift healthcare workers, doctors, shift laborers, and chronic insomniacs.
+* **Session Length:** 8 Hours (continuous, unlooped overnight restorative sleep).
+* **Target Audience:** Every human who sleeps-especially night-shift healthcare workers, doctors, shift laborers, and chronic insomniacs.
 * **▶️ Reference Stream:** [Listen on YouTube: [1.5Hz DELTA] 8-Hour Somatic Sleep Chambers](https://www.youtube.com/playlist?list=PLXjq1mpvX-js)
 
 ### 4. VESSEL-D: 24/7 Neural Co-Working & Study Room (Live Stream)
