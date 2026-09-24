@@ -46,7 +46,7 @@ If you are proposing an addition to the research bibliography in `README.md`, en
   ```markdown
   * **Author, A. A., & Author, B. B. (Year).** *Title of the study.* Journal Name, Volume(Issue), Page-Range. [DOI Link](https://doi.org/...)
   ```
-* **Context Annotation:** Provide a 1–2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
+* **Context Annotation:** Provide a 1-2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
 
 ---
 
@@ -54,7 +54,7 @@ If you are proposing an addition to the research bibliography in `README.md`, en
 
 Contributions that clarify optimal listening environments are encouraged:
 * Calibrated headphone specifications (open-back vs. planar magnetic vs. closed-back).
-* Safe decibel exposure limits (OSHA / NIOSH compliance, 30%–50% volume recommendation).
+* Safe decibel exposure limits (OSHA / NIOSH compliance, 30%-50% volume recommendation).
 * Circadian ergonomics (OLED true-black display protocols, blue-light avoidance for nocturnal recovery).
 
 ---
