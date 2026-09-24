@@ -47,7 +47,7 @@ If you are proposing an addition to the research bibliography in `README.md`, en
   ```markdown
   * **Author, A. A., & Author, B. B. (Year).** *Title of the study.* Journal Name, Volume(Issue), Page-Range. [DOI Link](https://doi.org/...)
   ```
-* **Context Annotation:** Provide a 1–2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
+* **Context Annotation:** Provide a 1-2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
 
 ---
 
