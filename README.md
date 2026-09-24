@@ -131,10 +131,16 @@ If you utilize this research index or theoretical specifications in academic wor
   howpublished = {\url{https://github.com/gitagent7/awesome-neuroacoustics-deep-work}}
 }
 
-## 🤝 Contributing
+---
+
+## Contributing
 We welcome additions to the peer-reviewed research bibliography and improvements to the audio verification benchmark! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
 ---
-## ⚖️ Ethical & Health Disclaimer
+
+## Ethical & Health Disclaimer
 *The resources in this repository are published for scientific research, educational, and cognitive optimization purposes. They are not intended as medical advice or as a substitute for professional clinical treatment. Individuals with a history of epilepsy, auditory seizures, or cardiac pacemakers should consult a qualified healthcare professional prior to using acoustic entrainment tools.*
+
 ---
+
 **Maintained by [SYNAPSE // NEURAL AMBIENT](https://www.youtube.com/@synapseneuralambient). Open-source under the MIT License.**
