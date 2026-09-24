@@ -130,7 +130,7 @@ If you utilize this research index or theoretical specifications in academic wor
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/gitagent7/awesome-neuroacoustics-deep-work}}
 }
-
+```
 ---
 
 ## Contributing
