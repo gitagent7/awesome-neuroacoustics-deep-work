@@ -21,19 +21,18 @@ To maintain academic and scientific credibility, all contributors must adhere to
 
 ## How Can You Contribute?
 
-You can contribute across three distinct tracks:
+You can contribute across two distinct tracks:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                                 CONTRIBUTION TRACKS                                    │
-├─────────────────────────┬───────────────────────────────┬──────────────────────────────┤
-│ TRACK 1: RESEARCH       │ TRACK 2: DSP BENCHMARK        │ TRACK 3: DOCUMENTATION       │
-├─────────────────────────┼───────────────────────────────┼──────────────────────────────┤
-│ • Add peer-reviewed     │ • Enhance verify_audio.py     │ • Listening setup guides     │
-│   journal citations     │ • Multi-taper spectral PSD    │ • Acoustic hygiene protocols │
-│ • Summarize clinical    │ • Stereo phase correlation    │ • Circadian lighting & OLED  │
-│   entrainment trials    │ • Loudness compliance tools   │   ergonomic guidelines       │
-└─────────────────────────┴───────────────────────────────┴──────────────────────────────┘
+├────────────────────────────────────────┬───────────────────────────────────────────────┤
+│ TRACK 1: PEER-REVIEWED RESEARCH        │ TRACK 2: ACOUSTIC HYGIENE & PROTOCOLS        │
+├────────────────────────────────────────┼───────────────────────────────────────────────┤
+│ • Add peer-reviewed journal citations  │ • Calibrated listening setup guides           │
+│ • Clinical entrainment trial summaries │ • Safe decibel & listening duration guidelines│
+│ • Neuroacoustic mechanism analyses     │ • Circadian lighting & OLED display ergonomics│
+└────────────────────────────────────────┴───────────────────────────────────────────────┘
 ```
 
 ---
@@ -47,33 +46,15 @@ If you are proposing an addition to the research bibliography in `README.md`, en
   ```markdown
   * **Author, A. A., & Author, B. B. (Year).** *Title of the study.* Journal Name, Volume(Issue), Page-Range. [DOI Link](https://doi.org/...)
   ```
-* **Context Annotation:** Provide a 1-2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
+* **Context Annotation:** Provide a 1–2 sentence summary explaining the practical relevance to functional acoustic entrainment (e.g., target frequency band, carrier interaction, or neural mechanism).
 
 ---
 
-### Track 2: DSP Benchmark & Analysis Tool Enhancements (`verify_audio.py`)
-
-We maintain a lightweight, zero-dependency (NumPy, SciPy, SoundFile only) verification benchmark to audit audio files for scientific compliance.
-
-We welcome PRs that enhance:
-* High-resolution spectral differential estimation (e.g., Thomson multi-taper PSD, Welch window optimization).
-* True Peak ($dBFS$) inter-sample over-detection algorithms conforming to ITU-R BS.1770-4.
-* Interaural phase coherence and cross-correlation ($IACC$) metrics.
-* Isochronic amplitude modulation depth and duty cycle analyzers.
-
-**Code Guidelines:**
-* Must remain compatible with Python 3.10+.
-* Avoid heavy third-party dependencies; prefer standard scientific libraries (`numpy`, `scipy`).
-* Include type annotations and docstrings explaining mathematical formulas.
-* Ensure code runs cross-platform (Linux, macOS, Windows).
-
----
-
-### Track 3: Acoustic Hygiene & Listening Guides
+### Track 2: Acoustic Hygiene & Listening Protocols
 
 Contributions that clarify optimal listening environments are encouraged:
 * Calibrated headphone specifications (open-back vs. planar magnetic vs. closed-back).
-* Safe decibel exposure limits (OSHA / NIOSH compliance, 35%–55% volume recommendation).
+* Safe decibel exposure limits (OSHA / NIOSH compliance, 30%–50% volume recommendation).
 * Circadian ergonomics (OLED true-black display protocols, blue-light avoidance for nocturnal recovery).
 
 ---
@@ -89,11 +70,11 @@ Contributions that clarify optimal listening environments are encouraged:
    ```
 3. **Commit with Clear Messages:** Follow conventional commits:
    * `docs: add 2024 sleep spindle entrainment citation`
-   * `feat(dsp): add inter-sample peak detection to audio verifier`
+   * `docs: update 40Hz gamma ASSR mechanisms`
    * `fix: correct typo in gamma frequency table`
 4. **Test Your Changes:**
-   * If modifying code, run `python verify_audio.py <sample.wav>` to verify functionality.
-   * If modifying Markdown, preview in GitHub or a Markdown viewer to check table formatting and links.
+   * Preview Markdown in GitHub or a Markdown viewer to check table formatting and links.
+   * Verify that all academic DOIs and paper links are active and resolve correctly.
 5. **Submit Pull Request:**
    * Provide a clear description of the change, citing relevant papers or DSP improvements.
    * Ensure links are valid and active.
