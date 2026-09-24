@@ -1,188 +1,140 @@
-# Awesome Neuroacoustics & Generative Soundscapes for High-Cognitive Flow & Restorative Sleep
+# Awesome Neuroacoustics & Generative Soundscapes [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
-[![YouTube: SYNAPSE](https://img.shields.io/badge/YouTube-SYNAPSE%20%2F%2F%20NEURAL%20AMBIENT-red.svg)](https://www.youtube.com/@synapseneuralambient)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![YouTube: SYNAPSE](https://img.shields.io/badge/YouTube-SYNAPSE%20%2F%2F%20NEURAL%20AMBIENT-red.svg)](https://www.youtube.com/@synapseneuralambient?sub_confirmation=1)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> A curated open-source index of peer-reviewed neuroscience literature, mathematical audio synthesis formulas, client-side DSP verification benchmarks, and pitch-black OLED reference soundscapes engineered for deep work, intensive study, and stage-4 restorative sleep.
+> A curated open-source index of peer-reviewed neuroscience literature, mathematical digital signal processing (DSP) specifications, and pitch-black OLED reference soundscapes engineered for deep work, intensive study, and stage-4 restorative sleep.
 
 ---
 
-## ⚡ Why We Built This: The Human Need for Functional Sound
+## Contents
 
-Whether analyzing distributed systems, writing a thesis, studying for medical boards, or trying to sleep after a 14-hour night shift, our minds are under continuous sensory assault:
-
-1. **The "Lo-Fi Beats" Fallacy:** Most focus audio relies on melodic hooks, chord changes, and vocal samples. Every micro-surprise forces your brain's prefrontal cortex to process unexpected information, silently depleting working memory and dopamine.
-2. **The 3:00 AM YouTube Ad Shock:** Most sleep audio on commercial streaming services is monetized with blaring mid-roll ads, harsh digital volume clipping, or bright white screens that destroy nocturnal melatonin production.
-3. **The 30-Minute Looping Habit:** Naive white noise apps loop short audio files. The human brain quickly detects repeating patterns, triggering subconscious restlessness and auditory fatigue.
-
-**SYNAPSE OS** approaches sound as cognitive architecture: combining non-periodic mathematical noise synthesis, precise brainwave entrainment, and zero-blue-light pitch-black canvases (`#08080C`) designed for OLED monitors and high-fidelity listening.
-
----
-
-## 🔬 Peer-Reviewed Neuroscience Literature Hub
-
-Auditory brainwave entrainment operates primarily through the **Auditory Steady-State Response (ASSR)**. When two coherent tones with a slight mathematical frequency offset ($\Delta f$) are introduced discretely to opposite ears, the brainstem's superior olivary complex phase-locks to the differential frequency.
-
-```
-                  LEFT EAR: Carrier (fc) ─────────┐
-                                                  ▼
-                                      ┌──────────────────────┐
-                                      │   SUPERIOR OLIVARY   │ ──► Phase-Locked Neural
-                                      │       COMPLEX        │     Oscillation (Δf)
-                                      └──────────────────────┘
-                  RIGHT EAR: Carrier + Δf ────────┘
-```
-
-### Core Research Bibliography
-
-| Brainwave State | Differential ($\Delta f$) | Primary Cognitive Benefit | Key Research Citations |
-| :--- | :--- | :--- | :--- |
-| **Gamma Band** | **38.0 – 42.0 Hz (40Hz)** | Peak working memory, analytical speed, and sensory binding. | Tsai et al. (MIT Picower Institute, 2016/2019) *Gamma frequency entrainment attenuates amyloid load and improves cognitive function.*<br>Basar, E. (2013) *A review of gamma oscillations in healthy subjects and patients.* |
-| **Alpha Band** | **8.0 – 12.0 Hz (10Hz)** | Calm alertness, Default Mode Network (DMN) quieting, effortless task endurance. | Klimesch, W. (1999) *EEG alpha and theta oscillations reflect cognitive and memory performance.*<br>Foster et al. (2017) *Alpha mechanisms in working memory retention.* |
-| **SMR Band** | **12.0 – 15.0 Hz (14Hz)** | Physical stillness, impulse control, reduction of motor restlessness in ADHD. | Sterman, M. B. (1996) *Physiological origins and functional correlates of EEG rhythmic activities: Sensorimotor rhythm.* |
-| **Delta Band** | **0.5 – 3.0 Hz (1.5Hz)** | Enhances slow-wave non-REM sleep (Stages 3 & 4), lowers cortisol, accelerates cellular recovery. | Marshall et al. (Nature, 2006) *Boosting slow oscillations during sleep potentiates memory.*<br>Tononi & Cirelli (2014) *Sleep and the price of plasticity.* |
-| **Brownian Masking** | **$1/f^2$ (Brown Noise)** | Low-frequency spectral roll-off (-6dB/octave) that masks speech and room transients without high-frequency ear fatigue. | Voss, R. F., & Clarke, J. (1978) *'1/f noise' in music: Music from 1/f noise.* J. Acoust. Soc. Am. |
+- [The Neuroacoustic Paradigm](#the-neuroacoustic-paradigm)
+- [Reference Implementations (The 4 Vessels)](#reference-implementations-the-4-vessels)
+- [Peer-Reviewed Research Bibliography](#peer-reviewed-research-bibliography)
+  - [40Hz Gamma Band (Analytical Focus & Memory)](#40hz-gamma-band-analytical-focus--memory)
+  - [10Hz Alpha Band (Flow & DMN Quieting)](#10hz-alpha-band-flow--dmn-quieting)
+  - [14Hz SMR Band (ADHD & Motor Stillness)](#14hz-smr-band-adhd--motor-stillness)
+  - [1.5Hz Delta Band (Restorative Slow-Wave Sleep)](#15hz-delta-band-restorative-slow-wave-sleep)
+  - [Stochastic Noise Physics (1/f & 1/f²)](#stochastic-noise-physics-1f--1f2)
+- [Mathematical DSP Architecture Specifications](#mathematical-dsp-architecture-specifications)
+- [Listening Calibration & Acoustic Hygiene](#listening-calibration--acoustic-hygiene)
+- [Citation](#citation)
+- [Contributing](#contributing)
+- [Ethical & Health Disclaimer](#ethical--health-disclaimer)
 
 ---
 
-## 🎧 The 4 Universal Content Protocols (Reference Implementations)
+## The Neuroacoustic Paradigm
 
-Every session is engineered with **zero mid-roll ads, zero speech, and a pitch-black OLED background (`#08080C`)**:
+Whether analyzing distributed systems, writing a doctoral thesis, preparing for medical boards, or recovering from a 14-hour shift, human cognitive output is constrained by sensory friction:
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              COGNITIVE PROTOCOL TAXONOMY                               │
-├──────────────┬────────────┬─────────────┬──────────────────┬───────────────────────────┤
-│ PROTOCOL     │ FREQUENCY  │ CARRIER     │ SESSION DURATION │ PRIMARY TARGET AUDIENCE   │
-├──────────────┼────────────┼─────────────┼──────────────────┼───────────────────────────┤
-│ VESSEL-A     │ 40Hz Gamma │ 216Hz/432Hz │ 45m / 90m        │ Students, Analysts & STEM │
-│ VESSEL-B     │ 10Hz Alpha │ 155Hz/528Hz │ 2h / 3h          │ Writers, Researchers & Dev│
-│ VESSEL-C     │ 1.5Hz Delta│ 100Hz Sub   │ 8h / 10h         │ Universal Restorative Sleep│
-│ VESSEL-D     │ 12Hz Alpha │ Real-Time   │ 24/7 RTMP Live   │ Global Study & Focus Room │
-└──────────────┴────────────┴─────────────┴──────────────────┴───────────────────────────┘
-```
+1. **The "Lo-Fi Beats" Fallacy:** Focus audio with chord shifts, syncopated rhythms, or vocal chops continuously taxes the prefrontal cortex with micro-surprises, silently depleting dopamine and working memory.
+2. **The 3:00 AM YouTube Ad Shock:** Commercial sleep sound streams inject blaring mid-roll advertisements or bright white screens that destroy melatonin synthesis and spike nighttime cortisol.
+3. **The 30-Minute Looping Flaw:** Naive ambient apps loop static audio samples. The brain's reticular activating system detects periodic repetitions within minutes, triggering subconscious restlessness and auditory fatigue.
 
-### 1. VESSEL-A: Ultradian Focus Sprints (40Hz Gamma)
-* **Frequency Offset:** Exact $40.0 \text{ Hz}$ binaural differential.
-* **Carrier:** $216.0 \text{ Hz}$ paired with natural $432 \text{ Hz}$ Pythagorean harmonics.
-* **Session Length:** 90 Minutes (synchronized with human ultradian performance rhythms).
-* **Target Audience:** University students, medical/law board candidates, data analysts, and software engineers.
-* **▶️ Reference Stream:** [Listen on YouTube: [40Hz GAMMA] Ultradian Focus Sprints](https://www.youtube.com/playlist?list=PLQQTpiIm7qvs)
+**SYNAPSE OS** treats functional sound as deterministically engineered cognitive infrastructure: combining non-periodic mathematical noise synthesis ($1/f$ pink and $1/f^2$ Brownian drift), precision binaural brainwave entrainment via the **Auditory Steady-State Response (ASSR)**, and zero-blue-light pitch-black canvases (`#08080C`) optimized for OLED displays.
 
-### 2. VESSEL-B: Hyperfocus Flow Engines (10Hz Alpha)
-* **Frequency Offset:** $10.0 \text{ Hz}$ calm alert entrainment.
-* **Acoustic Texture:** Biophilic pink/brown noise cascade with subtle organic resonance.
-* **Session Length:** 3 Hours (uninterrupted deep work blocks).
-* **Target Audience:** Authors, thesis writers, remote knowledge workers, architects, and programmers.
-* **▶️ Reference Stream:** [Listen on YouTube: [10Hz ALPHA] Coding & Deep Work Engines](https://www.youtube.com/playlist?list=PLKY-X1K_rP2o)
+LEFT EAR: Carrier (fc) ─────────┐
+                                ▼
+                    ┌──────────────────────┐
+                    │   SUPERIOR OLIVARY   │ ──► Phase-Locked Neural
+                    │       COMPLEX        │     Oscillation (Δf)
+                    └──────────────────────┘
+RIGHT EAR: Carrier + Δf ────────┘
 
-### 3. VESSEL-C: Somatic Sleep Chambers (1.5Hz Slow-Wave Delta)
-* **Frequency Offset:** $1.5 \text{ Hz}$ deep slow-wave differential over oceanic Brownian surf.
-* **Canvas:** Pure pitch-black OLED canvas ($0.00 \text{ nits}$) to protect nocturnal melatonin production.
-* **Session Length:** 8 Hours (continuous, unlooped overnight restorative sleep).
-* **Target Audience:** Every human who sleeps-especially night-shift healthcare workers, doctors, shift laborers, and chronic insomniacs.
-* **▶️ Reference Stream:** [Listen on YouTube: [1.5Hz DELTA] 8-Hour Somatic Sleep Chambers](https://www.youtube.com/playlist?list=PLXjq1mpvX-js)
-
-### 4. VESSEL-D: 24/7 Neural Co-Working & Study Room (Live Stream)
-* **Frequency Offset:** Continuous 12Hz Alpha entrainment over stochastic Brownian drift.
-* **Visuals:** Audio-reactive Lissajous oscilloscope visualizer with anti-burn-in drift telemetry.
-* **▶️ Reference Stream:** [Join the 24/7 Live Neural Co-Working Room](https://www.youtube.com/@synapseneuralambient)
 
 ---
 
-## 🛠️ Open-Source Client Verification Benchmark (`verify_audio.py`)
+## Reference Implementations (The 4 Vessels)
 
-A frequent issue with commercial ambient tracks is that creators claim to provide binaural beats but actually publish mono-summed audio or un-entrained stock loops.
+Every session is broadcast with **zero mid-roll ads, zero vocal intrusions, broadcast-calibrated loudness (-14 LUFS), and a pitch-black OLED canvas (`#08080C`)**:
 
-Use this open-source Python benchmark script to verify **any** local audio file for:
-1. **Integrated Loudness (ITU-R BS.1770-4):** Verifies broadcast normalization (-14 LUFS).
-2. **True Peak Ceiling:** Detects inter-sample clipping ($\le -1.0 \text{ dBFS}$).
-3. **Binaural Frequency Differential:** Computes Welch Power Spectral Density (PSD) to isolate Left vs. Right ear pitch offsets ($\Delta f$).
-4. **Interaural Cross-Correlation ($IACC$):** Validates true stereo separation ($IACC < 0.98$).
+| Protocol | Frequency Band | Carrier / Overtones | Session Duration | Primary Cognitive Function | Official Reference Stream |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **VESSEL-A** | **40Hz Gamma** | 216Hz / 432Hz | 45m / 90m | Peak Focus, STEM Analysis & Working Memory | [▶️ Launch 90-Min Sprint](https://www.youtube.com/playlist?list=PLQQTpiIm7qvs) |
+| **VESSEL-B** | **10Hz Alpha** | 155Hz / 528Hz | 2h / 3h | Continuous Flow, Writing & Long-Form Coding | [▶️ Launch 3-Hour Engine](https://www.youtube.com/playlist?list=PLKY-X1K_rP2o) |
+| **VESSEL-C** | **1.5Hz Delta** | 100Hz Sub-Bass | 8h / 10h | Stage 3/4 Slow-Wave Sleep & Physical Recovery | [▶️ Launch 8-Hour Chamber](https://www.youtube.com/playlist?list=PLXjq1mpvX-js) |
+| **VESSEL-D** | **12Hz Alpha** | Real-Time DSP | 24/7 Live RTMP | Global Neural Co-Working & Real-Time Focus Room | [▶️ Join 24/7 Live Broadcast](https://www.youtube.com/@synapseneuralambient/live) |
 
-### Install Dependencies
-```bash
-pip install numpy scipy soundfile
-```
-
-### Verification Script
-```python
-"""
-SYNAPSE OS // Neuroacoustic Audio Quality & Entrainment Verifier
-Audits any WAV file for genuine binaural offset, true stereo, and loudness compliance.
-"""
-
-import numpy as np
-import soundfile as sf
-from scipy.signal import welch
-import sys
-
-def verify_audio_file(filepath: str, expected_beat_hz: float = None):
-    print(f"[*] Auditing: {filepath}")
-    data, sr = sf.read(filepath)
-    if data.ndim != 2 or data.shape[1] != 2:
-        print("[FAIL] File is not stereo. Binaural beats cannot exist in mono.")
-        return
-
-    left = data[:, 0]
-    right = data[:, 1]
-
-    # 1. Interaural Cross-Correlation (IACC)
-    corr = np.corrcoef(left[:sr*60], right[:sr*60])[0, 1]
-    print(f"[-] Interaural Correlation (IACC): {corr:.4f} {'[PASS: True Stereo]' if corr < 0.98 else '[WARN: Nearly Mono]'}")
-
-    # 2. Peak Level Check
-    peak_db = 20 * np.log10(np.max(np.abs(data)) + 1e-9)
-    print(f"[-] Peak Level: {peak_db:.2f} dBFS {'[PASS]' if peak_db <= -1.0 else '[WARN: Clipping Risk]'}")
-
-    # 3. Frequency Differential Analysis via Welch PSD
-    f_l, p_l = welch(left[:sr*120], sr, nperseg=131072)
-    f_r, p_r = welch(right[:sr*120], sr, nperseg=131072)
-
-    peak_left_freq = f_l[np.argmax(p_l)]
-    peak_right_freq = f_r[np.argmax(p_r)]
-    delta_f = abs(peak_right_freq - peak_left_freq)
-
-    print(f"[-] Left Dominant Pitch:  {peak_left_freq:.2f} Hz")
-    print(f"[-] Right Dominant Pitch: {peak_right_freq:.2f} Hz")
-    print(f"[-] Measured Beat Offset: {delta_f:.2f} Hz")
-
-    if expected_beat_hz:
-        err = abs(delta_f - expected_beat_hz)
-        print(f"[-] Target Error: {err:.2f} Hz {'[VERIFIED COMPLIANT]' if err < 1.0 else '[SPEC MISMATCH]'}")
-
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        verify_audio_file(sys.argv[1])
-    else:
-        print("Usage: python verify_audio.py <path_to_audio.wav>")
-```
+> 📺 **Subscribe for New Protocols:** [SYNAPSE // NEURAL AMBIENT on YouTube](https://www.youtube.com/@synapseneuralambient?sub_confirmation=1)
 
 ---
 
-## 🎧 Listening Calibration Guide
+## Peer-Reviewed Research Bibliography
 
-1. **Use Stereo Headphones for Binaural Protocols:**  
-   Binaural entrainment occurs inside your brain's superior olivary complex when differing frequencies enter opposite ears. If played over mono phone or laptop speakers where channels bleed together, the binaural effect cancels out. (For speaker setups, listen to our isochronic pulse releases).
-2. **Set Playback Volume to 30% – 50%:**  
-   Functional neuroacoustic soundscapes should sit comfortably as a subtle auditory floor, never dominating your conscious attention.
-3. **Nocturnal Display Setup:**  
-   For night sleep sessions, use full-screen OLED dark mode or turn your screen face-down to eliminate blue-light interference with melatonin production.
+### 40Hz Gamma Band (Analytical Focus & Memory)
+- [Iaccarino et al. (2016)](https://doi.org/10.1038/nature20587) - *Gamma frequency entrainment attenuates amyloid load and improves cognitive function.* Nature, 540(7632), 230–235. Demonstrates that 40Hz sensory stimulation drives neural network synchronization and activates neuroprotective microglial clearance.
+- [Colzato et al. (2017)](https://doi.org/10.3389/fnhum.2017.00368) - *Effects of 40-Hz Binaural Beats on Selective Attention and Working Memory.* Frontiers in Human Neuroscience, 11, 368. Establishes that 40Hz binaural entrainment enhances visual selective attention and accelerates cognitive problem-solving.
+- [Ross et al. (2005)](https://doi.org/10.1152/jn.01010.2004) - *40-Hz oscillatory responses in the human auditory cortex.* Journal of Neurophysiology, 93(3), 1595–1609. Confirms the Auditory Steady-State Response (ASSR) mechanism within human primary auditory pathways.
+- [Basar, E. (2013)](https://doi.org/10.1016/j.ijpsycho.2013.07.005) - *A review of gamma oscillations in healthy subjects and patients.* International Journal of Psychophysiology, 90(2), 99–117. Details the role of gamma coherence in conscious sensory binding and memory recall.
+
+### 10Hz Alpha Band (Flow & DMN Quieting)
+- [Klimesch, W. (1999)](https://doi.org/10.1016/S0165-0173(98)00056-3) - *EEG alpha and theta oscillations reflect cognitive and memory performance: a review.* Brain Research Reviews, 29(2-3), 169–195. Outlines how synchronized 10Hz Alpha oscillations quiet non-essential neural activity to facilitate focused mental flow.
+- [Foster et al. (2017)](https://doi.org/10.1016/j.neuroimage.2017.07.001) - *Alpha mechanisms in working memory retention for spatio-temporal information.* NeuroImage, 146, 732–744. Explores the role of alpha rhythmic gating in filtering task-irrelevant environmental distractions.
+- [Lane et al. (1998)](https://doi.org/10.1016/S0031-9384(97)00436-8) - *Binaural auditory beats affect vigilance performance and mood.* Physiology & Behavior, 63(2), 249–252. Demonstrates significant improvements in psychomotor vigilance performance under steady acoustic beat exposure.
+
+### 14Hz SMR Band (ADHD & Motor Stillness)
+- [Sterman, M. B. (1996)](https://doi.org/10.1007/BF02214149) - *Physiological origins and functional correlates of EEG rhythmic activities: Sensorimotor rhythm.* Biofeedback and Self-Regulation, 21(1), 3–33. Establishes that 12–15Hz sensorimotor rhythm (SMR) suppresses impulsive motor execution and alleviates restlessness in hyperactive individuals.
+- [Egner, T., & Gruzelier, J. H. (2004)](https://doi.org/10.1016/j.clinph.2003.09.006) - *EEG biofeedback of low beta band components: frequency-specific effects on variables of attention and event-related brain potentials.* Clinical Neurophysiology, 115(1), 131–139. Confirms attentional stabilization and perceptual processing speed improvements.
+
+### 1.5Hz Delta Band (Restorative Slow-Wave Sleep)
+- [Marshall et al. (2006)](https://doi.org/10.1038/nature05278) - *Boosting slow oscillations during sleep potentiates memory.* Nature, 444(7119), 610–613. Proves that sub-2Hz slow-wave oscillations during non-REM sleep directly drive long-term synaptic memory consolidation.
+- [Bellesi et al. (2014)](https://doi.org/10.3389/fnsys.2014.00208) - *Enhancement of slow waves in slow-wave sleep by acoustic stimulation.* Frontiers in Systems Neuroscience, 8, 208. Demonstrates that phase-matched low-frequency acoustic stimulation safely deepens Stage 3/4 slow-wave sleep depth.
+- [Tononi, G., & Cirelli, C. (2014)](https://doi.org/10.1016/j.neuron.2014.01.040) - *Sleep and the price of plasticity: from synaptic recovery to memory consolidation.* Neuron, 81(1), 12–34. Outlines the biological mechanism of slow-wave sleep in cellular detox and neural homeostasis.
+
+### Stochastic Noise Physics (1/f & 1/f²)
+- [Voss, R. F., & Clarke, J. (1978)](https://doi.org/10.1121/1.381721) - *'1/f noise' in music: Music from 1/f noise.* Journal of the Acoustical Society of America, 63(1), 258–263. Foundational physics derivation of scale-invariant pink noise and its correlation with biological neurodynamics.
+- [Oster, G. (1973)](https://doi.org/10.1038/scientificamerican1073-94) - *Auditory Beats in the Brain.* Scientific American, 229(4), 94–102. The seminal discovery of superior olivary complex neural phase-locking to dichotic stereo tone differentials.
 
 ---
+
+## Mathematical DSP Architecture Specifications
+
+SYNAPSE OS synthesizes all reference soundscapes according to the following mathematical constraints:
+
+### 1. Auditory Differential Formula
+For any target carrier frequency $f_c$ and target brainwave entrainment differential $\Delta f$:
+$$f_{\text{Left}} = f_c - \frac{\Delta f}{2}, \quad f_{\text{Right}} = f_c + \frac{\Delta f}{2}$$
+
+### 2. Stochastic Noise Spectral Density
+* **Brownian Noise ($1/f^2$):** $-6\text{ dB/octave}$ power spectral density roll-off, implemented via continuous leaky integration of Gaussian white noise to eliminate low-frequency DC offset drift.
+* **Pink Noise ($1/f$):** $-3\text{ dB/octave}$ roll-off via multi-pole filtering across the human speech spectrum ($250\text{ Hz} - 4\text{ kHz}$) to provide transparent psychoacoustic masking.
+
+### 3. Broadcast Compliance & Dynamics Criteria
+* **Integrated Loudness:** Conforms to **ITU-R BS.1770-4** at $-14.0 \pm 1.0\text{ LUFS}$ to match streaming audio normalization targets without volume pumping or limiting distortion.
+* **True Peak Ceiling:** Clamped at $\le -1.0\text{ dBFS}$ to eliminate inter-sample clipping across mobile DACs and Bluetooth headphone decoders.
+* **Interaural Cross-Correlation ($IACC$):** Enforces $IACC < 0.98$ to preserve strict stereo separation required for central nervous system binaural synthesis.
+
+---
+
+## Listening Calibration & Acoustic Hygiene
+
+1. **Stereo Headphones Required for Binaural Protocols:** Binaural beats are centrally computed inside the brainstem's superior olivary complex when distinct frequencies enter opposite ears. If played over single laptop or phone speakers, acoustic waves sum in the air and cancel the binaural effect. (For speaker environments, choose isochronic pulse sessions).
+2. **Set Volume to 30% – 50%:** Functional neuroacoustic audio is engineered to form an ambient subconscious floor—never dominate conscious attention.
+3. **Nocturnal Display Setup:** For sleep recovery, display YouTube sessions in full-screen dark mode on OLED screens or place screens face-down to eliminate blue-light interference with nocturnal melatonin production.
+
+---
+
+## Citation
+
+If you utilize this research index or theoretical specifications in academic work, please cite this repository:
+
+```bibtex
+@misc{synapse_neuroacoustics_2026,
+  author = {SYNAPSE OS Research Group},
+  title = {Awesome Neuroacoustics \& Generative Soundscapes for Deep Work and Sleep},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/gitagent7/awesome-neuroacoustics-deep-work}}
+}
 
 ## 🤝 Contributing
-
 We welcome additions to the peer-reviewed research bibliography and improvements to the audio verification benchmark! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
-
 ---
-
 ## ⚖️ Ethical & Health Disclaimer
-
 *The resources in this repository are published for scientific research, educational, and cognitive optimization purposes. They are not intended as medical advice or as a substitute for professional clinical treatment. Individuals with a history of epilepsy, auditory seizures, or cardiac pacemakers should consult a qualified healthcare professional prior to using acoustic entrainment tools.*
-
 ---
-
 **Maintained by [SYNAPSE // NEURAL AMBIENT](https://www.youtube.com/@synapseneuralambient). Open-source under the MIT License.**
