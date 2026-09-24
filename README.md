@@ -65,28 +65,28 @@ Every session is broadcast with **zero mid-roll ads, zero vocal intrusions, broa
 ## Peer-Reviewed Research Bibliography
 
 ### 40Hz Gamma Band (Analytical Focus & Memory)
-- [Iaccarino et al. (2016)](https://doi.org/10.1038/nature20587) - *Gamma frequency entrainment attenuates amyloid load and improves cognitive function.* Nature, 540(7632), 230–235. Demonstrates that 40Hz sensory stimulation drives neural network synchronization and activates neuroprotective microglial clearance.
+- [Iaccarino et al. (2016)](https://doi.org/10.1038/nature20587) - *Gamma frequency entrainment attenuates amyloid load and improves cognitive function.* Nature, 540(7632), 230-235. Demonstrates that 40Hz sensory stimulation drives neural network synchronization and activates neuroprotective microglial clearance.
 - [Colzato et al. (2017)](https://doi.org/10.3389/fnhum.2017.00368) - *Effects of 40-Hz Binaural Beats on Selective Attention and Working Memory.* Frontiers in Human Neuroscience, 11, 368. Establishes that 40Hz binaural entrainment enhances visual selective attention and accelerates cognitive problem-solving.
-- [Ross et al. (2005)](https://doi.org/10.1152/jn.01010.2004) - *40-Hz oscillatory responses in the human auditory cortex.* Journal of Neurophysiology, 93(3), 1595–1609. Confirms the Auditory Steady-State Response (ASSR) mechanism within human primary auditory pathways.
-- [Basar, E. (2013)](https://doi.org/10.1016/j.ijpsycho.2013.07.005) - *A review of gamma oscillations in healthy subjects and patients.* International Journal of Psychophysiology, 90(2), 99–117. Details the role of gamma coherence in conscious sensory binding and memory recall.
+- [Ross et al. (2005)](https://doi.org/10.1152/jn.01010.2004) - *40-Hz oscillatory responses in the human auditory cortex.* Journal of Neurophysiology, 93(3), 1595-1609. Confirms the Auditory Steady-State Response (ASSR) mechanism within human primary auditory pathways.
+- [Basar, E. (2013)](https://doi.org/10.1016/j.ijpsycho.2013.07.005) - *A review of gamma oscillations in healthy subjects and patients.* International Journal of Psychophysiology, 90(2), 99-117. Details the role of gamma coherence in conscious sensory binding and memory recall.
 
 ### 10Hz Alpha Band (Flow & DMN Quieting)
-- [Klimesch, W. (1999)](https://doi.org/10.1016/S0165-0173(98)00056-3) - *EEG alpha and theta oscillations reflect cognitive and memory performance: a review.* Brain Research Reviews, 29(2-3), 169–195. Outlines how synchronized 10Hz Alpha oscillations quiet non-essential neural activity to facilitate focused mental flow.
-- [Foster et al. (2017)](https://doi.org/10.1016/j.neuroimage.2017.07.001) - *Alpha mechanisms in working memory retention for spatio-temporal information.* NeuroImage, 146, 732–744. Explores the role of alpha rhythmic gating in filtering task-irrelevant environmental distractions.
-- [Lane et al. (1998)](https://doi.org/10.1016/S0031-9384(97)00436-8) - *Binaural auditory beats affect vigilance performance and mood.* Physiology & Behavior, 63(2), 249–252. Demonstrates significant improvements in psychomotor vigilance performance under steady acoustic beat exposure.
+- [Klimesch, W. (1999)](https://doi.org/10.1016/S0165-0173(98)00056-3) - *EEG alpha and theta oscillations reflect cognitive and memory performance: a review.* Brain Research Reviews, 29(2-3), 169-195. Outlines how synchronized 10Hz Alpha oscillations quiet non-essential neural activity to facilitate focused mental flow.
+- [Foster et al. (2017)](https://doi.org/10.1016/j.neuroimage.2017.07.001) - *Alpha mechanisms in working memory retention for spatio-temporal information.* NeuroImage, 146, 732-744. Explores the role of alpha rhythmic gating in filtering task-irrelevant environmental distractions.
+- [Lane et al. (1998)](https://doi.org/10.1016/S0031-9384(97)00436-8) - *Binaural auditory beats affect vigilance performance and mood.* Physiology & Behavior, 63(2), 249-252. Demonstrates significant improvements in psychomotor vigilance performance under steady acoustic beat exposure.
 
 ### 14Hz SMR Band (ADHD & Motor Stillness)
-- [Sterman, M. B. (1996)](https://doi.org/10.1007/BF02214149) - *Physiological origins and functional correlates of EEG rhythmic activities: Sensorimotor rhythm.* Biofeedback and Self-Regulation, 21(1), 3–33. Establishes that 12–15Hz sensorimotor rhythm (SMR) suppresses impulsive motor execution and alleviates restlessness in hyperactive individuals.
-- [Egner, T., & Gruzelier, J. H. (2004)](https://doi.org/10.1016/j.clinph.2003.09.006) - *EEG biofeedback of low beta band components: frequency-specific effects on variables of attention and event-related brain potentials.* Clinical Neurophysiology, 115(1), 131–139. Confirms attentional stabilization and perceptual processing speed improvements.
+- [Sterman, M. B. (1996)](https://doi.org/10.1007/BF02214149) - *Physiological origins and functional correlates of EEG rhythmic activities: Sensorimotor rhythm.* Biofeedback and Self-Regulation, 21(1), 3-33. Establishes that 12-15Hz sensorimotor rhythm (SMR) suppresses impulsive motor execution and alleviates restlessness in hyperactive individuals.
+- [Egner, T., & Gruzelier, J. H. (2004)](https://doi.org/10.1016/j.clinph.2003.09.006) - *EEG biofeedback of low beta band components: frequency-specific effects on variables of attention and event-related brain potentials.* Clinical Neurophysiology, 115(1), 131-139. Confirms attentional stabilization and perceptual processing speed improvements.
 
 ### 1.5Hz Delta Band (Restorative Slow-Wave Sleep)
-- [Marshall et al. (2006)](https://doi.org/10.1038/nature05278) - *Boosting slow oscillations during sleep potentiates memory.* Nature, 444(7119), 610–613. Proves that sub-2Hz slow-wave oscillations during non-REM sleep directly drive long-term synaptic memory consolidation.
+- [Marshall et al. (2006)](https://doi.org/10.1038/nature05278) - *Boosting slow oscillations during sleep potentiates memory.* Nature, 444(7119), 610-613. Proves that sub-2Hz slow-wave oscillations during non-REM sleep directly drive long-term synaptic memory consolidation.
 - [Bellesi et al. (2014)](https://doi.org/10.3389/fnsys.2014.00208) - *Enhancement of slow waves in slow-wave sleep by acoustic stimulation.* Frontiers in Systems Neuroscience, 8, 208. Demonstrates that phase-matched low-frequency acoustic stimulation safely deepens Stage 3/4 slow-wave sleep depth.
-- [Tononi, G., & Cirelli, C. (2014)](https://doi.org/10.1016/j.neuron.2014.01.040) - *Sleep and the price of plasticity: from synaptic recovery to memory consolidation.* Neuron, 81(1), 12–34. Outlines the biological mechanism of slow-wave sleep in cellular detox and neural homeostasis.
+- [Tononi, G., & Cirelli, C. (2014)](https://doi.org/10.1016/j.neuron.2014.01.040) - *Sleep and the price of plasticity: from synaptic recovery to memory consolidation.* Neuron, 81(1), 12-34. Outlines the biological mechanism of slow-wave sleep in cellular detox and neural homeostasis.
 
 ### Stochastic Noise Physics (1/f & 1/f²)
-- [Voss, R. F., & Clarke, J. (1978)](https://doi.org/10.1121/1.381721) - *'1/f noise' in music: Music from 1/f noise.* Journal of the Acoustical Society of America, 63(1), 258–263. Foundational physics derivation of scale-invariant pink noise and its correlation with biological neurodynamics.
-- [Oster, G. (1973)](https://doi.org/10.1038/scientificamerican1073-94) - *Auditory Beats in the Brain.* Scientific American, 229(4), 94–102. The seminal discovery of superior olivary complex neural phase-locking to dichotic stereo tone differentials.
+- [Voss, R. F., & Clarke, J. (1978)](https://doi.org/10.1121/1.381721) - *'1/f noise' in music: Music from 1/f noise.* Journal of the Acoustical Society of America, 63(1), 258-263. Foundational physics derivation of scale-invariant pink noise and its correlation with biological neurodynamics.
+- [Oster, G. (1973)](https://doi.org/10.1038/scientificamerican1073-94) - *Auditory Beats in the Brain.* Scientific American, 229(4), 94-102. The seminal discovery of superior olivary complex neural phase-locking to dichotic stereo tone differentials.
 
 ---
 
@@ -112,7 +112,7 @@ $$f_{\text{Left}} = f_c - \frac{\Delta f}{2}, \quad f_{\text{Right}} = f_c + \fr
 ## Listening Calibration & Acoustic Hygiene
 
 1. **Stereo Headphones Required for Binaural Protocols:** Binaural beats are centrally computed inside the brainstem's superior olivary complex when distinct frequencies enter opposite ears. If played over single laptop or phone speakers, acoustic waves sum in the air and cancel the binaural effect. (For speaker environments, choose isochronic pulse sessions).
-2. **Set Volume to 30% – 50%:** Functional neuroacoustic audio is engineered to form an ambient subconscious floor—never dominate conscious attention.
+2. **Set Volume to 30% - 50%:** Functional neuroacoustic audio is engineered to form an ambient subconscious floor—never dominate conscious attention.
 3. **Nocturnal Display Setup:** For sleep recovery, display YouTube sessions in full-screen dark mode on OLED screens or place screens face-down to eliminate blue-light interference with nocturnal melatonin production.
 
 ---
