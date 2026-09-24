@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you utilize this research index or the audio verification benchmark, please cite it as below."
+authors:
+  - name: "SYNAPSE OS Research Group"
+    website: "https://www.youtube.com/@synapseneuralambient"
+title: "Awesome Neuroacoustics & Generative Soundscapes for Deep Work and Sleep"
+version: 1.0.0
+date-released: 2026-09-24
+url: "https://github.com/your-username/awesome-neuroacoustics-deep-work"
+keywords:
+  - neuroacoustics
+  - binaural beats
+  - 40Hz gamma entrainment
+  - audio dsp
+  - deep work
+  - study music
+  - delta sleep
