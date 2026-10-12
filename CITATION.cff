@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reading list, please cite it as below."
+authors:
+  - name: "SYNAPSE // NEURAL AMBIENT"
+    website: "https://www.youtube.com/@synapseneuralambient"
+title: "Awesome Neuroacoustics for Deep Work and Sleep"
+version: 1.1.0
+date-released: 2026-10-12
+url: "https://github.com/gitagent7/awesome-neuroacoustics-deep-work"
+license: MIT
+abstract: "A reading list of peer-reviewed research on binaural beats, brain rhythms, background noise, and sleep sound, with a note on what each study did and did not test."
+keywords:
+  - neuroacoustics
+  - binaural beats
+  - brain rhythms
+  - 40Hz gamma
+  - sleep research
+  - study music
+  - brown noise
